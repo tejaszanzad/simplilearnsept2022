@@ -1,0 +1,28 @@
+package mypackage;
+
+//Two Threads Performing Two Tasks At A Time
+class MyThread1 implements Runnable {
+	//declare a string to represent a task
+	String str;
+	MyThread1(String str) {
+		this.str=str;
+	}
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}
+
+
+
+public class Theatre {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
